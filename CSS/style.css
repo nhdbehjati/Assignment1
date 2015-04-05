@@ -1,0 +1,212 @@
+body
+{
+	background-color : #F0F8FF;
+	width:960px;
+	margin:10px auto;
+	font-family:Times New Roman;
+	
+}
+#animate
+{
+	width: 50px;
+    height: 50px;
+    background-color: green;
+	
+}
+#headerImg
+{
+	width : 952px ;
+	height: 200px ;
+	border-style: solid;
+	border-top-style: hidden;
+	border-width: 4px;
+	border-color: #2E8B57;
+}
+#seyWelcome
+{
+	background-image : url("../Img/26.png");
+	direction : rtl;
+	border-style: solid;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-style: hidden;
+	border-width: 4px;
+	border-color: #2E8B57;
+	heigth: 150 px ;
+	text-align: center;
+	font-size: 32px;
+}
+
+#title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size : 28px;
+	color : #C71585;
+}
+.gray
+{
+	background-color: #DCDCDC;
+}
+article
+{
+	margin-top:20px;
+	padding:10px;
+	float:left;
+	direction:rtl;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #AAA;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	width : 650px;
+	height : auto ;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: #DCDCDC;
+	font-family:arial;
+}
+
+a
+{	
+	
+	color : #9932CC;
+	text-decoration: none;
+}
+a:hover 
+{
+    color: #8B008B;
+	text-decoration: none;
+}
+h2
+{
+	text-align : center;
+	font-family : url("")
+}
+.msg
+{
+	margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BBB;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: #EEE;
+}
+aside
+{
+	float:right;
+	margin-top:20px;
+	direction:rtl;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #AAA;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	width : 241px;
+	height :auto ;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: #DCDCDC;
+}
+
+.date
+{
+	font-size: small;
+}
+detail
+{
+	border-style : none ;
+}
+#imgslm
+{
+	float:left;
+	width:300px;
+	height : 300px ;
+	
+}
+table, th, td 
+{
+	text-align : center;
+    border: 1px solid green;
+}
+table
+{
+	margin:0px auto;
+}
+th
+{
+	color:#483D8B;
+}
+td
+{
+	color:#2F4F4F;
+}
+.post1
+{
+	font-weight: normal;
+	color:#6B8E23;
+	font-size:18px;
+}
+#slm
+{
+	text-align : center ;
+	font-weight: bold;
+	color:#006400;
+	font-size:24px;
+}
+#table
+{
+	text-align : center ;
+	
+}
+li
+{
+	color : #006400;
+	
+}
+.list
+{
+	font-weight: bold;
+	color:#556B2;
+	font-size:19px;
+}
+#myPhoto
+{
+	width: 150px ;
+	height: 130px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#BBB;
+}
+.side
+{
+	text-align:center;
+}
+h3
+{
+	color:#8B008B;
+	font-family: myFont;
+}
+@fontface
+{
+	font-family: myFont;
+	src : url("../Amiri/Amiri-Regular.ttf");
+}
