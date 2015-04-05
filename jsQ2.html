@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animation</title>
+<style>
+div.Square {
+	width: 50px;
+	height: 50px;
+	background-color: navy;
+	position: absolute;
+}
+</style>
+</head>
+<body>
+	 
+	<div id="sq" onclick="moveImage()" class="Square"></div>
+<script>
+var start = null;
+var element = document.getElementById("sq");
+
+function step(timestamp) {
+  if (!start) start = timestamp;
+  var progress = timestamp - start;
+  element.style.left = Math.min(progress/2, window.innerWidth - 50) + "px";
+  if (progress < 5200) {
+    window.requestAnimationFrame(step);
+  }
+  
+}
+function step1(timestamp2) {
+  if (!start) 
+  start = timestamp2;
+  var progres = timestamp2 - start;
+  element.style.top = Math.min(progres/4.5, window.innerWidth - 50) + "px";
+  if (progres < 2650) {
+    window.requestAnimationFrame(step1);
+  }
+  
+}
+
+window.requestAnimationFrame(step);
+window.requestAnimationFrame(step1);
+
+	</script>
+</body>
+</html>
